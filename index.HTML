@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<body bgcolor="pink">
+    <h1 style="color:red">HTML</h1>
+    <!-- This is a comment -->
+    <p>This is a paragraph.</p>
+    <!-- Comments are not displayed in the browser -->
+    <hr>
+    <h3 style="color:blue">The iframe element </h1>
+        <iframe src="https://www.wikipedia.org" height="200" width="400">
+        </iframe>
+        <hr>
+        <h3 style="color:blue">The ins element</h1>
+            <p>HTML stands for <del>hypr Text Markup Language</del> <ins>hyper Text Markup
+                    Language</ins>!</p>
+            <hr>
+            <h3 style="color:blue">The a element</h3>
+            <a href="https://www.wikipedia.org">Visit Wikipedia</a>
+            <hr>
+            <h3 style="color:blue">The abbr element</h3>
+            <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> was developed in
+                1993.</p>
+            <hr>
+            <h3 style="color:blue">The address element</h3>
+            <address>
+                Written by <a href="https://www.wikipedia.org">Wikipedia</a>.<br>
+                Visit us at:<br>
+                Bangalore<br>
+                India
+            </address>
+            <hr>
+            <h3 style="color:blue">The map and area elements</h3>
+            <p>Click on the <b>Laptop</b>, the <b>phone</b>, or the <b>cup of coffee</b> to go
+                to a new page and read more about the topic:</p>
+            <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer"
+                    href="https://en.wikipedia.org/wiki/File:Acer_Chromebook_11_(24394834161).jpg">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/File:Fotos_produzidas_pelo_Senado_(30554309793).
+jpg">
+                <area shape="circle" coords="337,300,44" alt="Cup of coffee"
+                    href="https://en.wikipedia.org/wiki/File:A_small_cup_of_coffee.JPG">
+            </map>
+            <hr>
+            <h3 style="color:blue">The article element</h3>
+
+            <article>
+                <h4>HTML</h4>
+                <p>HTML is the standard markup language for Web pages.<br>With HTML you can create
+                    your own Website.<br>HTML is easy to learn - You will enjoy it!</p>
+            </article>
+            <hr>
+            <h3 style="color:blue">The audio element</h3>
+            <p>Click on the play button to play a sound:</p>
+            <audio controls>
+                <source src="Morning-sound-effects-nature.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <hr>
+            <h3 style="color:blue">The button Element</h3>
+            <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+            <hr>
+            <h3 style="color:blue">The canvas element</h3>
+            <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+            <script>
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.fillStyle = "#FF0000";
+                ctx.fillRect(0, 0, 80, 100);
+            </script>
+            <hr>
+            <h3 style="color:blue">The caption element</h3>
+            <table>
+                <caption>Monthly savings</caption>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$50</td>
+                </tr>
+            </table>
+            <hr>
+            <h3 style="color:blue">The col element</h3>
+            <table>
+                <colgroup>
+                    <col span="2" style="background-color:Blue">
+                    <col style="background-color:Green">
+                </colgroup>
+                <tr>
+                    <th>ISBN</th>
+
+                    <th>Title</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>3476896</td>
+                    <td>Tomato</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>5869207</td>
+                    <td>Carrot</td>
+                    <td>$70</td>
+                </tr>
+            </table>
+            <hr>
+            <h3 style="color:blue">The figure and figcaption element</h3>
+            <figure>
+                <img src="tulips_white_beautiful.jpg" alt="tulips" style="width:20%">
+                <figcaption>Fig.1 - Tulips_white_beautiful.</figcaption>
+            </figure>
+            <hr>
+            <h3 style="color:blue">The fieldset element</h3>
+            <form action="https://media.istockphoto.com/photos/thank-you-written-under-yellow-torn-pap
+er-picture-id1313204471?b=1&k=20&m=1313204471&s=170667a&w=0&h=7Rb0JU-H-blQZUCLFTWY5L
+OtmrPDkCSv9a3LLXzG0zI=">
+                <fieldset>
+                    <legend>Personalia:</legend>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday"><br><br>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+            <hr>
+            <h3 style="color:blue">The footer element</h3>
+            <footer>
+                <p>Author: XYZ<br>
+                    <a href="mailto:xyz@example.com">xyz@example.com</a>
+                </p>
+            </footer>
+
+</body>
+
+</html>
